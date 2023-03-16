@@ -26,5 +26,9 @@ def biologia():  # put application's code here
     return render_template('biologia.html')
 
 
+@app.route('/main')
+def main():  # put application's code here
+    return render_template('main2.html')
+
 if __name__ == '__main__':
     app.run()
